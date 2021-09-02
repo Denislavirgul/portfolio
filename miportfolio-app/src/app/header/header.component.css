@@ -1,0 +1,40 @@
+.galeria .contenedor-imagen a {
+    background: #000;
+    display: inline-block;
+}
+
+.galeria .contenedor-imagen:hover img {
+    opacity: .4;
+}
+
+.galeria .contenedor-imagen h1 {
+    color: #fff;
+    position: absolute;
+    display: none;
+}
+
+.galeria .contenedor-imagen:hover h1 {
+    display: block;
+}
+
+.galeria .contenedor-imagen p {
+    color: #fff;
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.galeria .contenedor-imagen:hover p {
+    display: block;
+}
+
+
+/* .info h3 {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.galeria .contenedor-imagen:hover h3 {
+    opacity: .4;
+} */
