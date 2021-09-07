@@ -28,6 +28,21 @@
     display: block;
 }
 
+.fuente1 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+}
+
+.fuente2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.fuente3 {
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
 
 /* .info h3 {
     color: #fff;
