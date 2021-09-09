@@ -1,8 +1,3 @@
-/* No CSS */
-
-
-/*# sourceMappingURL=header.component.css.map */
-
 .galeria .contenedor-imagen a {
     background: #000;
     display: inline-block;
@@ -47,14 +42,3 @@
     font-family: 'Passion One', cursive;
     font-weight: 400;
 }
-
-
-/* .info h3 {
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-}
-
-.galeria .contenedor-imagen:hover h3 {
-    opacity: .4;
-} */
