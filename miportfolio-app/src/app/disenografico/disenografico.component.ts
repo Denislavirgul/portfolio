@@ -10,6 +10,13 @@ export class DisenograficoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
+
+  
+
+
+  
 
 }

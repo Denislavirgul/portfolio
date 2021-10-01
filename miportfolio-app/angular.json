@@ -30,8 +30,8 @@
 
                         ],
                         "scripts": [
-                            "../miportfolio-app/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-
+                            "../miportfolio-app/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+                            "../miportfolio-app/src/app/disenografico/disenografico.component.js"
                         ]
                     },
                     "configurations": {
