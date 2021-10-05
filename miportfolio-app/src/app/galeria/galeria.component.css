@@ -28,3 +28,7 @@
 .columna {
     text-align: center;
 }
+
+.galeria .contenedor-imagen img {
+    cursor: url(../../assets/img/cursor/cursor_enlace2.png), auto;
+}

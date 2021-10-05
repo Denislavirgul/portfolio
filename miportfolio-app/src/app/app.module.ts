@@ -13,6 +13,11 @@ import { DisenograficoComponent } from './disenografico/disenografico.component'
 import { HomeComponent } from './home/home.component';
 import { DisenowebComponent } from './disenoweb/disenoweb.component';
 import { ManualmarcaComponent } from './manualmarca/manualmarca.component';
+import { RevistaComponent } from './revista/revista.component';
+import { IlustracionesComponent } from './ilustraciones/ilustraciones.component';
+import { FotografiasComponent } from './fotografias/fotografias.component';
+import { VideosComponent } from './videos/videos.component';
+import { VideojuegosComponent } from './videojuegos/videojuegos.component';
 
 
 @NgModule({
@@ -26,7 +31,12 @@ import { ManualmarcaComponent } from './manualmarca/manualmarca.component';
     DisenograficoComponent,
     HomeComponent,
     DisenowebComponent,
-    ManualmarcaComponent
+    ManualmarcaComponent,
+    RevistaComponent,
+    IlustracionesComponent,
+    FotografiasComponent,
+    VideosComponent,
+    VideojuegosComponent
   ],
   imports: [
     BrowserModule,
