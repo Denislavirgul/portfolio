@@ -23,3 +23,8 @@
     font-family: 'Passion One', cursive;
     font-weight: 400;
 }
+
+.contenedor-imagen {
+    max-height: 400px;
+    overflow: hidden;
+}
