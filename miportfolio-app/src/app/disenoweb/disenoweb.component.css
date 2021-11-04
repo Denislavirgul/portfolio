@@ -4,24 +4,7 @@
 }
 
 .galeria .contenedor-imagen:hover img {
-    opacity: .4;
-}
-
-.galeria .contenedor-imagen p {
-    color: #fff;
-    display: none;
-    position: absolute;
-    width: 100%;
-    z-index: 15;
-}
-
-.galeria .contenedor-imagen:hover p {
-    display: block;
-}
-
-.fuente3 {
-    font-family: 'Passion One', cursive;
-    font-weight: 400;
+    opacity: .8;
 }
 
 .contenedor-imagen {

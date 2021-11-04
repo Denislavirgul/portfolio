@@ -19,6 +19,10 @@ button {
     cursor: url(assets/img/cursor/cursor_enlace2.png), auto;
 }
 
+.video {
+    cursor: url(assets/img/cursor/cursor_enlace2.png), auto;
+}
+
 .btn-flotante {
     font-size: 16px;
     /* Cambiar el tamaño de la tipografia */

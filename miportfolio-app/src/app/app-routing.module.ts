@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: 'videos', component: VideosComponent},
   {path: 'videojuegos', component: VideojuegosComponent},
   {path: 'sobremi', component: SobremiComponent},
-  {path: 'contacto', component: ContactoComponent}
+  {path: 'contacto', component: ContactoComponent},
 
 ];
 
