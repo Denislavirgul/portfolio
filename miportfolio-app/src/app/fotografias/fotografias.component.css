@@ -1,0 +1,14 @@
+.galeria .contenedor-imagen a {
+    background: #000;
+    display: inline-block;
+}
+
+.galeria .contenedor-imagen:hover img {
+    opacity: .5;
+}
+
+
+/* .contenedor-imagen {
+    max-height: 400px;
+    overflow: hidden;
+} */
