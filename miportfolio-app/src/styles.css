@@ -19,7 +19,8 @@ button {
     cursor: url(assets/img/cursor/cursor_enlace2.png), auto;
 }
 
-.video {
+.video,
+.enviar {
     cursor: url(assets/img/cursor/cursor_enlace2.png), auto;
 }
 

@@ -1,0 +1,9 @@
+.galeria .contenedor-imagen a {
+    background: #000;
+    display: inline-block;
+}
+
+.galeria .contenedor-imagen:hover img {
+    opacity: .8;
+    cursor: url(../../assets/img/cursor/cursor_enlace2.png), auto;
+}
