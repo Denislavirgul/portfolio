@@ -3,20 +3,42 @@
 <p class="display-2 text-center py-5">Contacto</p>
 
 <div class="container-fluid g-0">
-    <div class="row g-0 d-flex justify-content-center">
+
+    <form class="row g-0 d-flex justify-content-center" action="https://formspree.io/f/xbjwpnel" method="POST">
         <div class="col-4">
+            <!-- Nombre -->
+            <div class="mb-3">
+                <label for="inputname" class="form-label">Nombre</label>
+                <input type="name" name="name" class="form-control" id="inputname" placeholder="Nombre">
+            </div>
+
+            <!-- Correo -->
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
             </div>
+
+            <!-- Mensaje -->
             <div class="mb-3 ">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control mje" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje."></textarea>
+                <textarea name="message" class="form-control mje" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje."></textarea>
             </div>
 
-            <button type="button" class="btn btn-primary btn-lg my-4 enviar">Enviar</button>
+            <!-- Botón -->
+            <button type="submit" class="btn btn-primary btn-lg my-4 enviar">Enviar</button>
         </div>
 
-    </div>
+    </form>
 
 </div>
+
+
+<script>
+    const $form = document.querySelector('#form')
+
+    $form.addEventListener('submit', handlesubimt)
+
+    function handlesubimt(event) {
+
+    }
+</script>
