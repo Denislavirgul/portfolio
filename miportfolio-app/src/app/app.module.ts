@@ -18,6 +18,7 @@ import { IlustracionesComponent } from './ilustraciones/ilustraciones.component'
 import { FotografiasComponent } from './fotografias/fotografias.component';
 import { VideosComponent } from './videos/videos.component';
 import { VideojuegosComponent } from './videojuegos/videojuegos.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { VideojuegosComponent } from './videojuegos/videojuegos.component';
     IlustracionesComponent,
     FotografiasComponent,
     VideosComponent,
-    VideojuegosComponent
+    VideojuegosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
